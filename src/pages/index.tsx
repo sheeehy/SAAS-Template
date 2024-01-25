@@ -18,6 +18,7 @@ import { HiBeaker } from "react-icons/hi";
 import { PiWebhooksLogoBold } from "react-icons/pi";
 import Card from "./Card";
 import { BiTrain, BiMailSend, BiBuildings, BiCertification, BiCopyAlt, BiGhost, BiFingerprint, BiAnalyse, BiArchiveOut } from "react-icons/bi";
+import Footer from "./Footer";
 
 export default function Home() {
   const contentData = [
@@ -194,17 +195,8 @@ export default function Home() {
             ))}
           </div>
         </div>
-        <div className="card  mt-12 "></div>
 
-        {/* <div className="flex flex-col justify-center items-center ">
-          <h2 className="text-5xl sm:text-6xl pt-0 pb-2 font-[400] mb-2 bg-clip-text text-transparent bg-gradient-to-t from-zinc-300 to-white">Beyond expecations</h2>
-          <p className="text-lg pt-0 pb-8 text-zinc-400 max-w-3xl text-center">
-            ACME is driving remarkable developer experiences that enable success stories, empower businesses, and fuel growth across industries and individuals.{" "}
-          </p>
-        </div>
-            */}
-
-        <div className="flex flex-col items-center justify-center text-5xl gap-2">
+        <div className="flex flex-col items-center justify-center text-5xl gap-2 mt-48">
           <h1>Something reimagined.</h1>
           <h1>Available today.</h1>
         </div>
@@ -217,11 +209,8 @@ export default function Home() {
           </button>
         </div>
       </main>
-      <footer className="bg-black text-zinc-400 py-6">
-        <div className="container mx-auto text-center">
-          <p className="text-sm">&copy; 2024 ACME. All rights reserved.</p>
-        </div>
-      </footer>
+      <div className="card  mt-12 "></div>
+      <Footer />
     </div>
   );
 }
