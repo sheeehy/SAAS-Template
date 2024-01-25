@@ -196,13 +196,32 @@ export default function Home() {
         </div>
         <div className="card  mt-12 "></div>
 
-        <div className="flex flex-col justify-center items-center ">
+        {/* <div className="flex flex-col justify-center items-center ">
           <h2 className="text-5xl sm:text-6xl pt-0 pb-2 font-[400] mb-2 bg-clip-text text-transparent bg-gradient-to-t from-zinc-300 to-white">Beyond expecations</h2>
           <p className="text-lg pt-0 pb-8 text-zinc-400 max-w-3xl text-center">
             ACME is driving remarkable developer experiences that enable success stories, empower businesses, and fuel growth across industries and individuals.{" "}
           </p>
         </div>
+            */}
+
+        <div className="flex flex-col items-center justify-center text-5xl gap-2">
+          <h1>Something reimagined.</h1>
+          <h1>Available today.</h1>
+        </div>
+        <div className="flex items-center justify-center pt-6 space-x-4 pb-40">
+          <button className="bg-white text-black px-5 py-3 rounded-full inline-flex items-center font-semibold hover:opacity-80 transition ease-in-out">
+            Get Started <FaAngleRight className="ml-1" />
+          </button>
+          <button className="bg-black text-gray-300 px-5 py-3 rounded-full inline-flex items-center font-semibold hover:bg-zinc-900 transition ease-in-out">
+            Documentation <FaAngleRight className="ml-1" />
+          </button>
+        </div>
       </main>
+      <footer className="bg-black text-zinc-400 py-6">
+        <div className="container mx-auto text-center">
+          <p className="text-sm">&copy; 2024 ACME. All rights reserved.</p>
+        </div>
+      </footer>
     </div>
   );
 }
