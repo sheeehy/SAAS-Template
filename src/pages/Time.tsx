@@ -6,27 +6,7 @@ import { FaYahoo } from "react-icons/fa";
 import { AiOutlineApple } from "react-icons/ai";
 import { BiError, BiErrorAlt } from "react-icons/bi";
 
-const YourComponent: React.FC = () => {
-  const [currentDateTime, setCurrentDateTime] = useState(new Date());
-
-  useEffect(() => {
-    // This effect runs once when the component mounts
-    setCurrentDateTime(new Date());
-  }, []); // Empty dependency array ensures the effect runs only once
-
-  // Format the time as needed (e.g., HH:mm:ss)
-  const formattedTime = currentDateTime.toLocaleTimeString(undefined, {
-    hour12: false,
-    hour: "2-digit",
-    minute: "2-digit",
-    second: "2-digit",
-  });
-
-  // Format the date as "Jan" + " " + "19"
-  const formattedDate = currentDateTime.toLocaleDateString(undefined, {
-    month: "short", // abbreviated month name (e.g., "Jan")
-    day: "numeric", // day of the month as a number (e.g., "19")
-  });
+const Time: React.FC = () => {
   return (
     <div className="card2  overflow-hidden ">
       <div className="flex-1 flex text-sm text-gray-400 pt-8 pb-5 pl-4 ">
@@ -35,8 +15,8 @@ const YourComponent: React.FC = () => {
         </div>
         <div className="text-sm bg-red-700 ml-12 text-red-300 rounded-md py-1.5 px-2 ">Bounced</div>
         <MdAccessTime className="ml-10 text-xl pt-1    " />
-        <span className="ml-3  py-1 ">{formattedDate}</span>
-        <span className="ml-3  py-1 ">{formattedTime}</span>
+        <span className="ml-3  py-1 ">Jan 25</span>
+        <span className="ml-3  py-1 ">14:59:34</span>
       </div>
 
       <div className="flex-1 flex text-sm text-gray-400 pb-4 pl-[5.5rem]">
@@ -63,8 +43,8 @@ const YourComponent: React.FC = () => {
         </div>
         <div className="text-sm bg-yellow-700 ml-12 text-yellow-300 rounded-md py-1.5 px-2">Undelivered</div>
         <MdAccessTime className="ml-10 text-xl pt-1    " />
-        <span className="ml-3  py-1 ">{formattedDate}</span>
-        <span className="ml-3  py-1 ">{formattedTime}</span>
+        <span className="ml-3  py-1 ">Jan 25</span>
+        <span className="ml-3  py-1 ">14:59:34</span>
       </div>
 
       <div className="flex-1 flex text-sm text-gray-400 pb-4 pl-[5.5rem]">
@@ -89,4 +69,4 @@ const YourComponent: React.FC = () => {
   );
 };
 
-export default YourComponent;
+export default Time;

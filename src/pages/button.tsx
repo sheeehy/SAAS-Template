@@ -1,13 +1,12 @@
 import React from "react";
 import { IconType } from "react-icons";
-import { FaNodeJs } from "react-icons/fa";
 
-interface IconButtonProps {
+interface ButtonProps {
   icon: IconType;
   text: string;
 }
 
-const IconButton: React.FC<IconButtonProps> = ({ icon: Icon, text }) => {
+const button: React.FC<ButtonProps> = ({ icon: Icon, text }) => {
   return (
     <button className="flex flex-col items-center pb-12 opacity-70 hover:opacity-100 transition-opacity ease-in-out duration-300">
       <div className="relative inline-flex flex-col items-center py-4 px-5 border rounded-2xl border-gray-500 opacity-90">
@@ -20,4 +19,4 @@ const IconButton: React.FC<IconButtonProps> = ({ icon: Icon, text }) => {
   );
 };
 
-export default IconButton;
+export default button;
