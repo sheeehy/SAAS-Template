@@ -1,0 +1,226 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: make scrollbar transparent */
+}
+
+.card {
+  background: black;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: white;
+  padding: 6% 0;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+}
+.card::before {
+  content: "";
+  pointer-events: none;
+  display: block;
+  position: absolute;
+  background: radial-gradient(circle at top center, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 30%);
+  height: 420px;
+  left: 50%;
+  width: 380px;
+  top: 0;
+  background-repeat: no-repeat;
+  transform: scale(2, 1) translate(-25%);
+}
+.card::after {
+  content: "";
+  pointer-events: none;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: radial-gradient(circle, rgb(152, 152, 152) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.card2 {
+  background: black;
+  position: relative;
+  width: 35rem;
+  height: 22rem; /* Adjust the height as needed */
+  color: white;
+  padding: 20px; /* Adjust the padding as needed */
+  text-align: center;
+  border-radius: 1.5rem /* 24px */;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Add border styling */
+}
+
+.card2::before {
+  content: "";
+  pointer-events: none;
+  display: block;
+  position: absolute;
+  background: radial-gradient(circle at top center, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 30%);
+  height: 420px;
+  left: 50%;
+  width: 380px;
+  top: 0;
+  background-repeat: no-repeat;
+  transform: scale(2, 1) translate(-25%);
+}
+
+.card2::after {
+  content: "";
+  pointer-events: none;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: radial-gradient(circle, rgb(152, 152, 152) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.card3 {
+  background: black;
+  position: relative;
+  /* Adjust the height as needed */
+  color: white;
+  padding: 20px; /* Adjust the padding as needed */
+  text-align: center;
+  border-radius: 1.5rem /* 24px */;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Add border styling */
+}
+
+.card3::before {
+  content: "";
+  pointer-events: none;
+  display: block;
+  position: absolute;
+  background: radial-gradient(circle at top center, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 30%);
+  height: 420px;
+  left: 50%;
+  width: 380px;
+  top: 0;
+  background-repeat: no-repeat;
+  transform: scale(2, 1) translate(-25%);
+}
+
+.card3::after {
+  content: "";
+  pointer-events: none;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: radial-gradient(circle, rgb(152, 152, 152) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.cardX {
+  background: black;
+  position: relative;
+  /* Adjust the height as needed */
+  color: white;
+  /* Adjust the padding as needed */
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Add border styling */
+}
+
+.cardX::before {
+  content: "";
+  pointer-events: none;
+  display: block;
+  position: absolute;
+  background: radial-gradient(circle at top center, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 30%);
+  height: 100%;
+  left: 50%;
+  width: 50%;
+  top: 0;
+  background-repeat: no-repeat;
+  transform: scale(2, 1) translate(-25%);
+}
+
+.cardX::after {
+  content: "";
+  pointer-events: none;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: radial-gradient(circle, rgb(152, 152, 152) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.bg {
+  background: radial-gradient(circle, rgb(24, 24, 24) -99%, rgba(255, 255, 255, 0) 96%);
+}
+
+/* h2Gen.module.css */
+/* globals.css */
+@keyframes bounceDown {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  60% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.card2 {
+  animation: bounceDown 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.card2-item {
+  animation: bounceDown 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  animation-delay: 0.2s; /* Adjust the delay as needed */
+}
+
+.h2Gen {
+  transition: transform 0.5s ease-in-out;
+}
+
+.move-down {
+  transition: transform 0.5s ease-in-out;
+}
+
+.card4 {
+  background: black;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: white;
+  padding: 6% 0;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+}
+.card4::before {
+  content: "";
+  pointer-events: none;
+  display: block;
+  position: absolute;
+  background: radial-gradient(circle at top center, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 30%);
+  height: 420px;
+  left: 50%;
+  width: 380px;
+  top: 0;
+  background-repeat: no-repeat;
+  transform: scale(2, 1) translate(-25%);
+}
+.card4::after {
+  content: "";
+  pointer-events: none;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: radial-gradient(circle, rgb(152, 152, 152) 0%, rgba(255, 255, 255, 0) 100%);
+}
