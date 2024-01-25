@@ -133,7 +133,7 @@ export default function Home() {
               First-class <br /> developer experience
             </h2>
             <p className="text-lg pt-6 pb-12 text-zinc-400 max-w-2xl text-left">
-              We are a team of engineers who love building tools for other engineers. Our goal is to create something we've always wished we had.
+              We are a team of engineers who love building tools for other engineers. Our goal is to create something we have always wished we had.
             </p>
             <div className="flex gap-10 z-20 ">
               <H2Gen />
