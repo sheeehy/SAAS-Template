@@ -13,7 +13,7 @@ const Time: React.FC = () => {
         <div className="bg-gradient-to-t from-black to-zinc-800 p-1.5 text-red-500 border-zinc-500 border-[1px] text-lg rounded-md ">
           <BiError />
         </div>
-        <div className="text-sm bg-red-700 ml-12 text-red-300 rounded-md py-1.5 px-2 ">Bounced</div>
+        <div className="text-sm bg-red-700 ml-12 text-red-200 rounded-md py-1.5 px-2 ">Processing</div>
         <MdAccessTime className="ml-10 text-xl pt-1    " />
         <span className="ml-3  py-1 ">Jan 25</span>
         <span className="ml-3  py-1 ">14:59:34</span>
@@ -21,16 +21,13 @@ const Time: React.FC = () => {
 
       <div className="flex-1 flex text-sm text-gray-400 pb-4 pl-[5.5rem]">
         <span className="pt-1 mx-2">to</span>{" "}
-        <span className="bg-gradient-to-t from-black to-zinc-800 px-2 py-1 border-zinc-500 border-[1px] text-white rounded-md ">jack@gmail.com</span>
+        <span className="bg-gradient-to-t from-black to-zinc-800 px-2 py-1 border-zinc-500 border-[1px] text-white rounded-md ">CLIENT_KEY</span>
         <span className="pt-1 mx-2"> with type</span>{" "}
-        <span className="bg-gradient-to-t from-black to-zinc-800 px-2 py-1 border-zinc-500 border-[1px] text-white rounded-md ">Spam</span>
+        <span className="bg-gradient-to-t from-black to-zinc-800 px-2 py-1 border-zinc-500 border-[1px] text-white rounded-md ">21931</span>
       </div>
       <div className="flex-1 flex text-sm text-gray-400 pl-[5.5rem] ">
         <span className="pt-1 mx-2"> on agent</span>
-        <span className="bg-gradient-to-t from-black to-zinc-800 px-2 py-1 border-zinc-500 border-[1px] text-white rounded-md flex items-center ">
-          <CgMail className="text-lg mr-1" />
-          Gmail
-        </span>{" "}
+        <span className="bg-gradient-to-t from-black to-zinc-800 px-2 py-1 border-zinc-500 border-[1px] text-white rounded-md flex items-center ">ARC</span>{" "}
         <span className="pt-1 mx-2"> running on </span>
         <span className="bg-gradient-to-t from-black to-zinc-800 px-2 py-1 border-zinc-500 border-[1px] text-white rounded-md flex items-center ">
           <LiaWindows className="text-lg mr-1" />
@@ -49,16 +46,13 @@ const Time: React.FC = () => {
 
       <div className="flex-1 flex text-sm text-gray-400 pb-4 pl-[5.5rem]">
         <span className="pt-1 mx-2">to</span>{" "}
-        <span className="bg-gradient-to-t from-black to-zinc-800 px-2 py-1 border-zinc-500 border-[1px] text-white rounded-md ">nicole@yahoo.com</span>
+        <span className="bg-gradient-to-t from-black to-zinc-800 px-2 py-1 border-zinc-500 border-[1px] text-white rounded-md ">CLIENT_KEY</span>
         <span className="pt-1 mx-2"> with type</span>{" "}
-        <span className="bg-gradient-to-t from-black to-zinc-800 px-2 py-1 border-zinc-500 border-[1px] text-white rounded-md ">Welcome</span>
+        <span className="bg-gradient-to-t from-black to-zinc-800 px-2 py-1 border-zinc-500 border-[1px] text-white rounded-md ">31293</span>
       </div>
       <div className="flex-1 flex text-sm text-gray-400 pl-[5.5rem] ">
         <span className="pt-1 mx-2"> on agent</span>
-        <span className="bg-gradient-to-t from-black to-zinc-800 px-2 py-1 border-zinc-500 border-[1px] text-white rounded-md flex items-center ">
-          <FaYahoo className="text-lg mr-1" />
-          Yahoo Mail
-        </span>{" "}
+        <span className="bg-gradient-to-t from-black to-zinc-800 px-2 py-1 border-zinc-500 border-[1px] text-white rounded-md flex items-center ">ARC</span>{" "}
         <span className="pt-1 mx-2"> running on </span>
         <span className="bg-gradient-to-t from-black to-zinc-800 px-2 py-1 border-zinc-500 border-[1px] text-white rounded-md flex items-center ">
           <AiOutlineApple className="text-lg mr-1" />

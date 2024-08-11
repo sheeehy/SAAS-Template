@@ -23,8 +23,8 @@ const H2Gen: React.FC = () => {
     <div className="card2 overflow-hidden">
       <div className={`flex items-center pt-12 px-10 ml-5 pb-16 ${httpResponses.length > 6 ? "move-down" : ""}`}>
         <div className="px-2 h-12  border-zinc-500 border-[1px] rounded-xl text-sm flex items-center">
-          <div className="text-sm bg-green-950 text-green-400 w-24 rounded-md py-1">Delivered</div>
-          <span className="ml-3 text-md">delivered@ACME.dev</span>
+          <div className="text-sm bg-green-950 text-green-400 w-24 rounded-md py-1">Success</div>
+          <span className="ml-3 text-md">johndoe@SYRO.dev</span>
           <button
             className="z-10 bg-black rounded-full ml-12 px-4 py-1 border-zinc-400 border-[1px] transition-transform hover:opacity-90 hover:scale-105 ease-in-out active:scale-100"
             onClick={handleSendButtonClick}

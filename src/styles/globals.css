@@ -7,6 +7,11 @@
   background: transparent; /* Optional: make scrollbar transparent */
 }
 
+::selection {
+  background-color: gray;
+  color: black;
+}
+
 .card {
   background: black;
   position: relative;
