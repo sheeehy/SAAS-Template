@@ -9,7 +9,7 @@ const poppins = Poppins({
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={poppins.className}>
+    <main className={`hidden lg:block ${poppins.className}`}>
       <Component {...pageProps} />
     </main>
   );
