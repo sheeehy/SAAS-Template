@@ -9,22 +9,22 @@ const Footer: React.FC = () => {
           <div>
             <h2 className="text-sm mr-20">2261 Market Street #5039 Dublin, 94114</h2>
             <div className="flex mt-4 gap-5 text-lg">
-              <a href="https://twitter.com/JackSheehy__">
+              <a href="/">
                 <button>
                   <FaXTwitter />
                 </button>
               </a>
-              <a href="https://www.linkedin.com/in/jack-sheehy-1720b21b6/">
+              <a href="/">
                 <button>
                   <FaLinkedinIn />
                 </button>
               </a>
-              <a href="https://github.com/sheeehy">
+              <a href="/">
                 <button>
                   <FaGithub />
                 </button>
               </a>
-              <a href="https://jacksheehy.live">
+              <a href="/">
                 <button>
                   <FaLink />
                 </button>
