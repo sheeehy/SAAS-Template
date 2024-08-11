@@ -9,22 +9,22 @@ const Footer: React.FC = () => {
           <div>
             <h2 className="text-sm mr-20">2261 Market Street #5039 Dublin, 94114</h2>
             <div className="flex mt-4 gap-5 text-lg">
-              <a href="/">
+              <a href="https://remise.ie">
                 <button>
                   <FaXTwitter />
                 </button>
               </a>
-              <a href="/">
+              <a href="https://remise.ie">
                 <button>
                   <FaLinkedinIn />
                 </button>
               </a>
-              <a href="/">
+              <a href="https://remise.ie">
                 <button>
                   <FaGithub />
                 </button>
               </a>
-              <a href="/">
+              <a href="https://remise.ie">
                 <button>
                   <FaLink />
                 </button>
